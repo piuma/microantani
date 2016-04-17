@@ -10,7 +10,9 @@ while (len(INPUT_CODE) < 4):
     if button_a.is_pressed():
         INPUT_CODE = INPUT_CODE + 'A'
     if button_b.is_pressed():
-        INPUT_CODE = INPUT_CODE + 'B'
+       INPUT_CODE = INPUT_CODE + 'B'
+
+display.clear()
 
 if (SECRET_CODE == INPUT_CODE):
     display.show(Image.HAPPY)
